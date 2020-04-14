@@ -16,6 +16,7 @@ else
 
 end
 end
+valid_move?(board, index)
 
  # if position_taken(board, index)==true &&  between?(board, index)==true
  #   puts display_board
