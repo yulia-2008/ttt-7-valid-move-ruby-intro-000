@@ -11,8 +11,8 @@ def valid_move?(board, index)
 
 puts position_taken?(board,index) && index.between?(0,8)
  
-
 end
+valid_move?(board, index)
 
 
 
