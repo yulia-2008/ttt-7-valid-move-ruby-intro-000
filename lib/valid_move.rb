@@ -12,7 +12,8 @@ def between?(board, index)
 end
 
 
-  if position_taken(board, index)=true &&  between?(board, index)
-    
+  if position_taken(board, index)==true &&  between?(board, index)==true
+    puts display_board
     
 else 
+  
