@@ -7,9 +7,9 @@ def valid_move?(board, index)
    board[index] =="X" || board[index] =="O"
  end
  
- position_taken?(board,index)
+# position_taken?(board,index)
 
-puts position_taken?(board,index) && index.between?(0,8)
+#puts position_taken?(board,index) && index.between?(0,8)
  
 end
 
