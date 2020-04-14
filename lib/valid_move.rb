@@ -8,8 +8,7 @@ def position_taken?(board, index)
    board[index] =="X" || board[index] =="O"
 end
 
-def between?(board, index)
-  board[index]>=0 && board[index]<=8
+def between?(0,8)
 end
 end
 
