@@ -8,14 +8,11 @@ def position_taken?(board, index)
    board[index] =="X" || board[index] =="O"
 end
 position_taken?(board,index)
-
-if position_taken?(board,index) && board[index].between?(0,8)
-  puts user_input
-else
-  puts "invalid"
+position_taken?(board,index) && board[index].between?(0,8)
+ 
 
 end
-end
+
 
 
  # if position_taken(board, index)==true &&  between?(board, index)==true
