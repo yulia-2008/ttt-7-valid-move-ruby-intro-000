@@ -11,7 +11,7 @@ end
 if position_taken?(board,index) && board[index].between?(0,8)
   puts user_input
 else
-  puts valid_move?(board,index)
+  puts "invalid"
 
 end
 
