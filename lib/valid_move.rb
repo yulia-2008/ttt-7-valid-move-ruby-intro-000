@@ -10,10 +10,11 @@ end
 def between?(board, index)
   board[index]>=0 && board[index]<=8
 end
+end
 
 
-  if position_taken(board, index)==true &&  between?(board, index)==true
-    puts display_board
+ # if position_taken(board, index)==true &&  between?(board, index)==true
+ #   puts display_board
     
 
   
